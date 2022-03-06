@@ -19,6 +19,31 @@ header{
     
 }
 
+.banner{
+    .slider{
+        .slide{
+            height:1100px;
+            display: flex;
+            .image{
+                flex:1;
+                background-image:url(./banner-laptop.png);
+                background-position: left;
+                background-repeat: no-repeat;
+                
+            }
+            .content{
+                flex:1;
+                .title{
+                    
+                }
+                .subtitle{
+                    
+                }
+            }
+        }
+    }
+}
+
 .h-1{
     display: flex;
     justify-content: flex-end;
