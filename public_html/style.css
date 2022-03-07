@@ -1,7 +1,9 @@
 .bodygradiant{
-    background-size: 100 vh;
-    background-image: linear-gradient(to bottom right, #EAD9CD, #F9F3E9);
-     
+    /* background-size: 100 vh;
+    background-image: radial-gradient(transparent, #f0e4d8);
+      */
+      background: rgb(234,217,205);
+background: linear-gradient(155deg, rgba(234,217,205,1) 0%, rgba(255,255,255,1) 50%);
 }
 header{
     
@@ -9,39 +11,15 @@ header{
     height:150px;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(to bottom right, #EAD9CD, #F9F3E9);
-    
-    .logo{
-        img{
-            
-        }
-    }
-    
+    /* background-image: linear-gradient(to bottom right, #EAD9CD, #F9F3E9); */
+
 }
 
-.banner{
-    .slider{
-        .slide{
-            height:1100px;
-            display: flex;
-            .image{
-                flex:1;
-                background-image:url(./banner-laptop.png);
-                background-position: left;
-                background-repeat: no-repeat;
-                
-            }
-            .content{
-                flex:1;
-                .title{
-                    
-                }
-                .subtitle{
-                    
-                }
-            }
-        }
-    }
+.slider{
+    margin-top:10%;
+}
+.slider .card{
+    box-shadow:0px 0px 8px #a4a5a4;
 }
 
 .h-1{
@@ -84,8 +62,22 @@ header{
     color:black;
 }
 
+.nav-link-1 a{
+    color:black;
+}
+
 .logo{
     margin-left: 50px;
-    height: 85px;
-    width: 185px;
+    height: 55px;
 } 
+.content{
+    text-align: right;   
+    float:right;
+}
+.laptop-image img{
+   width:100%; 
+}
+.content .subtitle{
+    font-size:24px;
+    padding-top:30px;
+}
